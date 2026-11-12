@@ -54,15 +54,6 @@ export default function Navbar({ onOpenAdmin }) {
           >
             WhatsApp
           </a>
-          <button
-            type="button"
-            onClick={onOpenAdmin}
-            className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-navy/50 transition hover:text-gold-muted"
-            aria-label="Admin login"
-          >
-            <Lock size={14} />
-            Admin
-          </button>
         </div>
 
         <button
@@ -102,16 +93,6 @@ export default function Navbar({ onOpenAdmin }) {
               >
                 Chat WhatsApp
               </a>
-              <button
-                type="button"
-                onClick={() => {
-                  setOpen(false)
-                  onOpenAdmin()
-                }}
-                className="inline-flex items-center gap-2 text-sm font-semibold text-navy/60"
-              >
-                <Lock size={14} /> Admin upload
-              </button>
             </div>
           </motion.div>
         )}

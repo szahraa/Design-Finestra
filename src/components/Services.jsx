@@ -19,8 +19,8 @@ export default function Services() {
             Tiga pilar keahlian, satu standar kualitas
           </h2>
           <p className="mt-4 text-ink/70">
-            Dari struktur bangunan, interior custom, hingga kusen aluminium —
-            kami tangani end-to-end: desain, produksi, dan instalasi.
+            Dari struktur bangunan, interior custom, hingga kusen aluminium kami tangani. 
+            Kami menyediakan layanan desain, produksi, dan instalasi.
           </p>
         </motion.div>
 

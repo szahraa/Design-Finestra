@@ -41,11 +41,6 @@ export default function Gallery({
               Dokumentasi pekerjaan civil, interior, dan kusen aluminium. Klik
               foto untuk melihat detail.
             </p>
-            {usingFallback && (
-              <p className="mt-3 text-xs text-ink/45">
-                Menampilkan data contoh — hubungkan Supabase untuk foto live.
-              </p>
-            )}
           </motion.div>
 
           {isAdmin && (
